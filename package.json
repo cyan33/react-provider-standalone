@@ -1,0 +1,27 @@
+{
+  "name": "react-provider-standalone",
+  "version": "0.0.1",
+  "description": "The standalone React components <Provider /> wrapper.",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyan33/react-provider-standalone.git"
+  },
+  "keywords": [
+    "provider",
+    "react",
+    "standalone"
+  ],
+  "author": "Chang Yan <thomasyim94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyan33/react-provider-standalone/issues"
+  },
+  "homepage": "https://github.com/cyan33/react-provider-standalone#readme",
+  "dependencies": {
+    "react": "^16.2.0"
+  }
+}
