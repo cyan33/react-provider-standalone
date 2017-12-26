@@ -7,6 +7,8 @@ Make something global by wrapping your root react component with a `<Provider />
 
 ```js
 // index.js
+import { Provider } from 'react-provider-standalone'
+
 ReactDOM.render(
   <Provider color={'#aaa'}>
     <App />
@@ -16,7 +18,8 @@ ReactDOM.render(
 
 ```js
 // MyComponent.js
-Adding a decorator for your own react component to get what is provided
+// Adding a decorator for your own react component to get what is provided
+import { acquire } from 'react-provider-standalone'
 
 @acquire
 class MyComponent extends React.Component {
