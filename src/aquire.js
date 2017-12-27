@@ -9,6 +9,8 @@ function aquire(WrappedComponent) {
     }
   }
   Aquire.displayName = `Aquire(${WrappedComponent.name || WrappedComponent.displayName})`
+  
+  return Aquire
 }
 
 module.exports = aquire
